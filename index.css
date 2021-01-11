@@ -1,0 +1,151 @@
+body {
+    width: 1440px;
+    height: 100%;
+    background-image: url(bg-pattern-top-desktop.svg) , url(bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 1440px;
+    background-position-x: -700px , 150px;
+    background-position-y: -120px , -50px;
+    font-family: 'Spartan';
+}
+.firstchild {
+    width: 460px;
+    height: 300px;
+}
+.first {
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    height: 210px;
+}
+.second {
+    margin: 100px;
+    height: 210px;
+    display: flex;
+    justify-content: space-between;
+} 
+.firstchild span {
+    font-size: 50px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+p {
+    font-size: 15px;
+    color: hsla(300, 43%, 22%, 0.788);
+    font-weight: 500;
+    line-height: 30px;
+}
+.secondchild {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    width: 480px;
+    margin-top: -30px;
+    height: 300px;
+    margin-right: 30px;
+}
+.left {
+    margin-left: 30px;
+}
+.middle {
+    margin-left: 30px;
+}
+.right {
+    margin-left: 30px;
+}
+.reviews {
+    background-color: hsl(300, 33%, 96%);
+    padding: 20px;
+    margin-top: 20px;
+    margin-right: 120px;
+    padding-right: 50px;
+    margin-left: -100px;
+    border-radius: 10px;
+}
+svg {
+    width: 25px;
+}
+.Guru {
+    padding: 20px;
+    background-color: hsl(300, 33%, 96%);
+    margin-left: -50px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+.BestTech {
+    background-color:  hsl(300, 33%, 96%);
+    padding: 20px;
+    border-radius: 10px;
+}
+.Smith {
+    width: 380px;
+    height: 220px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    font-size: 15px;
+    position: relative;
+}
+.Roberts {
+    width: 380px;
+    height: 220px;
+    background-color: hsl(300, 43%, 22%);
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.Wallace {
+    width: 380px;
+    height: 220px;
+    background-color: hsl(300, 43%, 22%);
+    margin-top: 40px;
+    margin-right: 30px;
+    border-radius: 10px;
+    position: relative;
+}
+img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+}
+.Info {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 80px;
+    top: 30px;
+    line-height: 23px;
+}
+.Smith p {
+    position: absolute;
+    top: 80px;
+    left: 26px;
+    right: 20px;
+    color: white;
+    font-weight: 400;
+    line-height: 23px;
+}
+.Roberts p {
+    position: absolute;
+    top: 80px;
+    left: 26px;
+    right: 20px;
+    color: white;
+    font-weight: 400;
+    line-height: 23px;
+}
+.Wallace p {
+    position: absolute;
+    top: 80px;
+    left: 26px;
+    right: 20px;
+    color: white;
+    font-weight: 400;
+    line-height: 23px;
+}
